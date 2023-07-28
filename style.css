@@ -1,0 +1,298 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/blue-toned-set-paper-sheets-with-copy-space_23-2148320447.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_wrapper .navbar {
+  padding: 1rem;
+}
+
+.header_wrapper .navbar-brand img {
+  max-width: 10rem;
+  height: auto;
+}
+
+.header_wrapper .nav-item {
+  margin: 0 1.5rem;
+}
+
+.header_wrapper .nav-item .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1d5b79;
+  display: inline-block;
+}
+
+.header_wrapper .nav-item .nav-link.active,
+.header_wrapper .nav-item .nav-link:hover {
+  color: #a76f6f;
+}
+
+.header-scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0 0.25rem 0.375rem rgba(12, 0, 46, 0.05);
+}
+
+.banner_wrapper {
+  padding-top: 13rem;
+}
+
+.banner_wrapper .banner-content {
+  vertical-align: middle;
+  align-self: center;
+}
+
+.main-btn {
+  color: white;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.8rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.6rem 1.8rem rgba(118 85 225/30%);
+  background-color: #5a96e3;
+  padding: 0 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 3.75rem;
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+h5 {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-bottom: 2.1rem;
+  font-weight: 700;
+}
+
+.homeImgae {
+  width: 800px;
+}
+
+.about-wrapper {
+  margin-top: 15rem;
+}
+
+.para-Wrapper {
+  text-align: justify;
+}
+
+.about-image {
+  width: 500px;
+}
+
+.cardStyle{
+  box-shadow: 0 24px 20px rgba(118 85 225/30%);
+  border: none;
+}
+
+
+.cardStyle:hover {
+  border: none;
+  transition: all 0.8s ease-in-out;
+  color:#1d5b79;
+  box-shadow: 0 24px 20px rgba(118 85 225/30%);
+}
+
+.skills .skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8%;
+  margin-bottom: 10%;
+}
+
+.headingSkill {
+  text-align: center;
+  font-size: 4.5rem;
+  position: relative;
+}
+
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+}
+
+.skills .skills-content .column h4 {
+  font-size: 2rem;
+}
+
+.skills .skills-content .column h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.skills .skills-content .column span {
+  font-size: 1.5rem;
+}
+
+.skills .skills-content .column span:hover {
+  color: #fcaeae;
+}
+
+.skills .skills-content .left p {
+  text-align: justify;
+}
+
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #7895cb;
+}
+.skills-content .right .html::before {
+  width: 90%;
+}
+.skills-content .right .css::before {
+  width: 90%;
+}
+.skills-content .right .js::before {
+  width: 80%;
+}
+.skills-content .right .DSA::before {
+  width: 40%;
+}
+.skills-content .right .Github::before {
+  width: 80%;
+}
+
+.skills-content .right .React::before {
+  width: 80%;
+}
+
+.skills-content .right .db::before {
+  width: 60%;
+}
+
+.skills-content .right .node::before {
+  width: 70%;
+}
+
+.portfolio{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.cardImage{
+    background-image: url("https://assets.winni.in/product/primary/2014/8/44035.jpeg?dpr=1&w=1000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
+    margin-right:2rem;
+}
+
+.cardImage1{
+    background-image: url("https://i.pinimg.com/736x/59/a9/f0/59a9f0f47f3689cdbcbd7ecb503c92d7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
+    margin-right:2rem;
+}
+
+.cardImage2{
+    background-image: url("https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/05/14190804/e-commerce-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
+}
+
+.cardImage:hover,.cardImage1:hover,.cardImage2:hover{
+  animation: zoom-in-zoom-out 1s ease;
+  background-color: #A4BC92;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.footer-image{
+  width: 200px;
+}
+
+li{
+  list-style: none;
+}
+
+.bi-instagram{
+  color: #E966A0;
+}
+
+.bi-linkedin{
+  color: #1F6E8C;
+}
+
+.bi-twitter{
+  color: #00C4FF;
+}
+
+@media screen and (max-width: 800px) {
+  .cardConatiner, .innerConatinerPortfolio{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+/* https://www.linkedin.com/in/arpana-k */
